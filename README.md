@@ -14,7 +14,11 @@ Select a subset of the repositories by URL. This will find roughly 10,000 reposi
 
 Export the results to CSV.
 
-Then, pull do this repository. Run `bundle install`. Set the `path_to_bigquery_csv` variables to the full file path to your CSV.
+Then, pull down this repository.
+
+`git@github.com:kdaigle/random-repositories.git`
+
+Run `bundle install`. Set the `path_to_bigquery_csv` variables to the full file path to your CSV. I've included a sample file here that you can replace.
 
 Setup a GitHub [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) with `public_repo` scope.
 
