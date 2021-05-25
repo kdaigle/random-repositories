@@ -4,4 +4,4 @@ def git_pull(val):
 if __name__ == '__main__':
   git_pull("git pull")
   
-  
+some_var = "akshtih"
